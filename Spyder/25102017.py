@@ -25,7 +25,9 @@ localtime = time.localtime(time.time())
 print ("local current time: ", localtime)
 print(localtime.tm_year)
 print(localtime.tm_mon)
-print(localtime.tm_mday)
+print(localti
+      
+      me.tm_mday)
 # to get the local time use asctime function
 localtime = time.asctime(time.localtime(time.time()))
 print ("Local Current time: " , localtime)
