@@ -32,3 +32,14 @@ n +2
 m = eval(input("Enter a number"))
 m
 """%reset - it is to remove the variables"""
+
+l =[1,2,"a"]
+"""List is mutable, can be changed"""
+type(l)
+tuple = (1,2,"a") 
+"""Tuple is same as list except that it is immutable, plus it is faster and consume less energy"""
+type(tuple)
+D = {"a":1, "b":2}
+type(D)
+"""Dictionary is mutable"""
+
