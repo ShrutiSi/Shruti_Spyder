@@ -42,4 +42,22 @@ type(tuple)
 D = {"a":1, "b":2}
 type(D)
 """Dictionary is mutable"""
+S1 = {1,2,3}
+type(S1)
+"""Set is unique values, unordered, no indexing/slicing; changes can be done"""
+fs=frozenset({1,2,3})
+type(fs)
+""" frozen set is fixed cannot be changed but other properties are like set"""
 
+l= [1,2,3]
+for i in range(len(l)):
+    print(l[i], end = ',')
+          
+
+def square(a):
+    """ This will square the value"""
+    return(a**2)
+square(3)
+
+
+import numpy as np
